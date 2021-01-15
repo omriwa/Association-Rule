@@ -45,10 +45,14 @@ Thanks to the following people who have contributed to this project:
 
 You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
 
-## Contact
+- 📫 How to reach me **omriwallach1992@gmail.com**
 
-If you want to contact me you can reach me at:
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/› omri-wallach-19989a113" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="› omri-wallach-19989a113" height="30" width="40" /></a>
+</p>
 
-* [![Mail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:omriwallach1992@gmail.com)
-* [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/omri-wallach-19989a113/)
-* [![Git](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/omriwa)
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> </p>
+
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=omriwa&show_icons=true&locale=en&layout=compact" alt="omriwa" /></p>
