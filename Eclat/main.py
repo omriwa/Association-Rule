@@ -16,9 +16,9 @@ for i in range(0, len(dataset)):
             transactions[i].append(dataset.iloc[i][j])
 
 # Training the model
-from apyori import apyori
+from apyori import apriori
 
-rules = apyori(transactions=transactions, min_support=0.003, min_confidence=0.2, min_lift=3, min_length=2, max_length=2)
+rules = apriori(transactions=transactions, min_support=0.003, min_confidence=0.2, min_lift=3, min_length=2, max_length=2)
 results = list(rules)
 
 
@@ -29,13 +29,10 @@ def inspect(results):
     supports    = [result[1] for result in results]
     # confidences = [result[2][0][2] for result in results]
     # lifts       = [result[2][0][3] for result in results]
-    return list(zip(lhs, rhs, supports, confidences, lifts))
+    return list(zip(lhs, rhs, supports))
 resultsinDataFrame = pd.DataFrame(inspect(results), columns = ['Product1', 'Product2', 'Support'])
 
-## Displaying the results non sorted
-resultsinDataFrame
-
 ## Displaying the results sorted by descending lifts
-resultsinDataFrame.nlargest(n = 10, columns = 'Lift')
+resultsinDataFrame.nlargest(n = 10, columns = 'Support')
 
 print(resultsinDataFrame)
